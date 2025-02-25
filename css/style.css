@@ -1,0 +1,35 @@
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Monoton&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+footer {
+    background-color: #D6001C; /* Rouge Iberia */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.footer-container a {
+    color: #FFD700; /* Doré Iberia */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-container a:hover {
+    text-decoration: underline;
+}
